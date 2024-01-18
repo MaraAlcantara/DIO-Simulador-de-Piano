@@ -1,0 +1,43 @@
+@media screen and (max-width: 700px) {
+    
+  .container {
+    transform: rotate(-90deg);
+    width: 450px;
+    height: 300px;
+  }
+
+  .container .piano-keys .key.white {
+    height: 120px;
+    }
+
+    .container .piano-keys .key.black {
+    height: 60px;   
+    }
+
+    .container header h2 {
+        font-size: 1rem;
+    }
+
+    .container header .column span {
+        font-size: 0.8rem;
+    }
+
+    .container header .keys-check input {
+        width: 30px;
+        height: 15px;
+    }
+
+    .container header .keys-check input::before {
+        width: 10px;
+        height: 10px;
+    }
+
+    .container header .keys-check input:checked::before{
+        left: 1.1rem;
+    }
+
+    .volume-control {
+        width: 70px;
+        height: 10px;
+    }
+}
